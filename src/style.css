@@ -96,7 +96,19 @@ p {
     text-align: center;
     margin: 0 20px;
   }
-  .col-md-6 {
+  p,
+  h2 {
     text-align: center;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h1 {
+    font-size: 52px;
+  }
+  .email-link {
+    font-size: 18px;
   }
 }
