@@ -89,3 +89,14 @@ p {
 .navbar {
   background-color: var(--secondary-color) !important;
 }
+
+@media (max-width: 576px) {
+  .primary-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+  .col-md-6 {
+    text-align: center;
+  }
+}
