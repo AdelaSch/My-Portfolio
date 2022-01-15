@@ -70,6 +70,10 @@ h4 {
   background: var(--tertiary-color);
   padding: 5rem;
 }
+
+.rounded {
+  border-radius: 10px !important;
+}
 .overlay-container {
   position: relative;
 }
@@ -87,7 +91,7 @@ h4 {
   width: 100%;
   opacity: 0;
   background-color: var(--primary-color);
-  border-radius: 0.25rem !important;
+  border-radius: 10px !important;
   background: linear-gradient(90deg, #1f1e38 0, #bb47d4);
   transition: all 0.6s ease;
 }
@@ -124,6 +128,12 @@ h4 {
   color: white;
 }
 
+.aboutme-text-wrapper {
+  border-radius: 10px;
+  align-self: center;
+  padding: 2rem;
+}
+
 .navbar {
   background-color: var(--tertiary-color) !important;
 }
@@ -135,9 +145,12 @@ h4 {
     display: flex;
     flex-direction: column;
   }
+  .hero-image {
+    display: none;
+  }
 
   .hero-text-wrapper h3 {
-    font-size: 15px !important;
+    font-size: 14px !important;
   }
   .hero-text-wrapper h1 {
     font-size: 4rem !important;
@@ -148,6 +161,20 @@ h4 {
   .contact-me-btn {
     max-width: 40%;
     margin-bottom: 2rem;
+  }
+  .aboutme-text-wrapper h3,
+  p {
+    text-align: center;
+  }
+  .my-projects-wrapper {
+    padding: 1rem;
+  }
+
+  .my-projects-wrapper h4 {
+    font-size: 3rem;
+  }
+  .overlay-container {
+    max-width: 100%;
   }
 }
 
