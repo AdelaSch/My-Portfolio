@@ -1,3 +1,5 @@
+/*font-family: 'Nunito', sans-serif;*/
+
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
@@ -5,6 +7,7 @@
 }
 body {
   margin-top: 100px;
+  font-family: SF Pro Display, sans-serif;
 }
 
 h1,
