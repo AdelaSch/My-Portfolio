@@ -142,6 +142,11 @@ h4 {
   width: 70%;
 }
 
+.icon {
+  font-size: 4rem;
+  padding: 1rem;
+}
+
 .navbar {
   background-color: var(--tertiary-color) !important;
 }
@@ -153,16 +158,20 @@ h4 {
     display: flex;
     flex-direction: column;
   }
-  .hero-image {
-    display: none;
-  }
-
   .hero-text-wrapper h3 {
     font-size: 14px !important;
   }
   .hero-text-wrapper h1 {
     font-size: 4rem !important;
   }
+  .aboutme-text-wrapper h3,
+  p {
+    text-align: center;
+  }
+  .hero-image {
+    display: none;
+  }
+
   .project {
     margin-bottom: 2rem;
   }
@@ -170,10 +179,7 @@ h4 {
     max-width: 40%;
     margin-bottom: 2rem;
   }
-  .aboutme-text-wrapper h3,
-  p {
-    text-align: center;
-  }
+
   .my-projects-wrapper {
     padding: 1rem;
   }
@@ -183,6 +189,9 @@ h4 {
   }
   .overlay-container {
     max-width: 100%;
+  }
+  .icon {
+    font-size: 4rem;
   }
 }
 
