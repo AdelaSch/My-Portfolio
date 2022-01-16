@@ -8,13 +8,12 @@ color: #212121;*/
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 body {
-  font-family: SF Pro Display, sans-serif;
+  font-family: "Nunito", sans-serif;
   background: var(--primary-color);
   color: #fff;
 }
 h4 {
   text-align: center;
-  font-family: SF Pro Display, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 4rem;
@@ -35,7 +34,6 @@ h4 {
   align-self: center;
 }
 .hero-text-wrapper h1 {
-  font-family: SF Pro Display, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 6.2rem;
@@ -71,9 +69,6 @@ h4 {
   padding: 5rem;
 }
 
-.rounded {
-  border-radius: 10px !important;
-}
 .overlay-container {
   position: relative;
 }
@@ -91,7 +86,6 @@ h4 {
   width: 100%;
   opacity: 0;
   background-color: var(--primary-color);
-  border-radius: 10px !important;
   background: linear-gradient(60deg, #5f5ae280, #3e9af0);
   transition: all 0.6s ease;
 }
@@ -110,16 +104,16 @@ h4 {
 
 .btn-light {
   color: var(--secondary-color);
-  color: #91c9ff;
   font-weight: 500;
   cursor: pointer;
   background: transparent;
-  border: 1px solid #91c9ff;
   transition: 1s ease-in-out;
   text-decoration: none;
   text-transform: uppercase;
   color: white;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  padding: 5rem;
+  border-radius: 0;
 }
 
 .btn-light:hover {
@@ -146,7 +140,9 @@ h4 {
   font-size: 4rem;
   padding: 1rem;
 }
-
+.icon:hover {
+  transform: scale(1.1);
+}
 .navbar {
   background-color: var(--tertiary-color) !important;
 }
