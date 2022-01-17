@@ -20,6 +20,11 @@ h4 {
   color: var(--primary-color);
   margin-bottom: 3rem;
 }
+
+h3 {
+  font-size: 3rem;
+  font-weight: 700;
+}
 .hero-wrapper {
   background: var(--primary-color);
 }
@@ -121,6 +126,9 @@ h4 {
   transition: 1s ease-in-out;
   color: white;
 }
+.aboutme-wrapper {
+  padding: 5rem;
+}
 
 .aboutme-text-wrapper {
   border-radius: 10px;
@@ -135,16 +143,54 @@ h4 {
   margin-right: auto;
   width: 70%;
 }
+.container.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-.icon {
+.icon,
+.social-icon {
   font-size: 4rem;
   padding: 1rem;
 }
-.icon:hover {
+.icon:hover,
+.social-icon {
   transform: scale(1.1);
 }
 .navbar {
   background-color: var(--tertiary-color) !important;
+}
+
+.contact-me-wrapper {
+  background: var(--tertiary-color);
+  padding: 5rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center !important;
+}
+.email-me-btn {
+  text-align: center;
+  border-radius: 10px;
+  padding: 15px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #91c9ff;
+  font-weight: 500;
+  cursor: pointer;
+  background: var(--primary-color);
+  border: 1px solid #91c9ff;
+  transition: 1s ease-in-out;
+}
+
+.container.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
 }
 
 @media (max-width: 576px) {
@@ -188,6 +234,11 @@ h4 {
   }
   .icon {
     font-size: 4rem;
+  }
+
+  .container.social-icons {
+    display: flex;
+    flex-direction: row !important;
   }
 }
 
