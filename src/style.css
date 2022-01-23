@@ -233,12 +233,16 @@ h3 {
     max-width: 100%;
   }
   .icon {
-    font-size: 4rem;
+    font-size: 3rem;
   }
-
-  .container.social-icons {
-    display: flex;
-    flex-direction: row !important;
+  .containter,
+  .skills-wrapper {
+    justify-content: center;
+    align-items: center !important;
+  }
+  .contact-info {
+    justify-content: center;
+    align-items: center !important;
   }
 }
 
